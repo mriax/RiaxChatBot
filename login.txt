@@ -1,0 +1,53 @@
+# RIAX CHAT BOT CONFIGURATION
+
+
+#Created by  Mr Riaz Hussain Zehri
+
+{
+
+
+# Jabber account where aurora will login
+
+'CONNECT_SERVER': 'openfire.server.com',
+ 
+'PORT': 5222,
+
+#BOT ID
+'JID': 'bot-id@server.com',
+
+#BOT PASSWORD
+'PASSWORD': 'bot-password',
+
+
+# CHATROOM NICK (BOT ID IN SMALL LETTERS)
+'DEFAULT_NICK': 'bot-id',
+
+
+# ADMIN JID THAT WILL CONTROL AURORA
+'ADMINS': ['mr_zehri@server.com'],
+
+'ADMIN_PASSWORD': '--==passssword==--',
+
+
+# RIAX CHAT BOT will try to reconnect on disconnections
+
+'AUTO_RESTART': 0,
+
+
+# Where to store HTML files from chatrooms logs
+
+# To disable logging, set to empty string: '',
+
+'PUBLIC_LOG_DIR': '',
+
+
+# Where to store logs of private chats
+
+# To disable logging, set to empty string: '',
+
+'PRIVATE_LOG_DIR': '',
+
+'INITSCRIPT_FILE': 'riax.rc',
+
+
+}

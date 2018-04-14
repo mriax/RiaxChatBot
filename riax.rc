@@ -1,0 +1,11 @@
+# aurora Init script
+rss_add_channel('nimbuzznews', 'http://feeds.feedburner.com/NimbuzzBlog?format=xml')
+rss_add_channel('indiannews', 'http://feeds.feedburner.com/ndtv/Lsgd?format=xml')
+rss_add_channel('worldnews', 'http://feeds.feedburner.com/ndtv/TqgX?format=xml')
+rss_add_channel('cricketnews', 'http://feeds.feedburner.com/NDTV-Cricket?format=xml')
+rss_subscribe('nimbuzznews', 'america+@conference.nimbuzz.com')
+rss_subscribe('indiannews', 'america+@conference.nimbuzz.com')
+rss_subscribe('worldnews', 'america+@conference.nimbuzz.com')
+rss_subscribe('cricketnews', 'america+@conference.nimbuzz.com')
+#thread.start_new(rss_query_channels_loop, ())
+#send "!rss_start" to start rss looping.
